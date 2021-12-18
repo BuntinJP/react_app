@@ -1,14 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bulma/css/bulma.css";
 
-
-ReactDOM.render (
-  <app />,document.querySelector("#content")
-);
-
+ReactDOM.render(<App />, document.querySelector("#content"));
 
 /* ReactDOM.render(
   <React.StrictMode>

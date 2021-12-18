@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-
+ReactDOM.render (
+  <app />,document.querySelector("#content")
+);
 
 
 /* ReactDOM.render(
